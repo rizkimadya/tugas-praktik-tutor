@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+
+/* navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: #FFBF69;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+.nav-brand{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.link-nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 34px;
+    transition: all ease-in 0.4s;
+    font-size: 18px;
+}
+
+.link-nav a:hover {
+    transition: all ease-out 0.4s;
+    color: #fff;
+}
+
+
+/* hero */
+.hero {
+    background-color: #FFBF69;
+    height: 100vh;
+    /* padding-top: 20%; */
+}
+
+.hero img {
+    margin-top: 14%;
+}
+
+.hero .title {
+    font-size: 154px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.hero .subtitle {
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero .btn-preview {
+    background-color: #CBF3F0;
+    font-weight: 500;
+    font-size: 24px;
+    border: none;
+    padding: 15px 90px;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    transition: all ease-in 0.4s;
+}
+
+.hero .btn-preview:hover {
+    color: #FFBF69;
+    transition: all ease-out 0.4s;
+    background-color: #fff;
+}
+
+
+/* what */
+.what {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.what .title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.what .subtitle {
+    padding: 0px 120px;
+}
+
+
+/* fitur */
+.fitur {
+    background-color: #CBF3F0;
+    padding-bottom: 60px;
+}
+
+.fitur .title {
+    padding: 90px 0px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.fitur .card {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fitur .card .keterangan {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fitur .card .btn-fitur {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    background-color: #FFBF69;
+    display: inline-block;
+    padding: 10px 60px;
+}
+
+
+/* tentang */
+.tentang {
+    background-image: url('../images/bg-grid.png');
+    padding: 80px 0px;
+    width: 100%;
+    background-position: center;
+    background-size: 66% 100%;
+    background-repeat: no-repeat;
+}
+
+.tentang .title {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.tentang .keterangan {
+    font-size: 18px;
+    padding-right: 40px;
+}
+
+
+/* footer */
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 20px;
+}
+
